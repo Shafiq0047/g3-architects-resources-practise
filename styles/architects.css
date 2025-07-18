@@ -73,11 +73,26 @@ main > section{
     text-decoration: none;
     font-size: 18px;
     font-weight: 500;
-    color: ;
+    transition: ease-in-out .4s;
+    
+}
+.nav-link:hover{
+    color: white;
+    background-color: rgba(255, 144, 14, 1);
+    padding: 10px 20px;
 }
 .navbar, .banner{
     max-width: 1440px;
     margin: 0 auto;
+}
+button{
+     transition: ease-in-out .4s;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    color: white;
+    background-color: rgb(210, 125, 45);
 }
 /* banner related styles */
 
